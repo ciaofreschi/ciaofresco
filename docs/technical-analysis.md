@@ -1,12 +1,54 @@
+
+Serverless architecture with Firebase
+Serverless architecture with AWS
+Backend in NodeJS
+Framework in PHP
+Applicazione mobile in Flutter
+Frontend in NextJS
+
+# Tecnologie Front End
+
+## User Dashboard
+NextJS
+## Landing Page
+Astro
+
+# Tecnologie backend
+
+## Database
+MySQL
+MongoDB
+
+## Webserver
+GO!
+
+## Hosting
+Google Cloud
+
+## Auth
+auth0
+
+## CDN
+Google Cloud CDN
+
+## Development tools
+Docker
+git
+Github actions
+Dependabot
+draw.io
+Postman
+Swagger
+Teamwork
+
+
+
+
+# To define
+
 ## System architecture
 - Componenti principali e interazioni
-
-
-## Technologies choices
-- Linguaggi di programmazione
-- Framework e librerie
-- Strumenti di sviluppo e IDE
-
+Webserver che espone API per i client
 
 ## Interfaces & Integrations
 - API
@@ -14,7 +56,6 @@
 
 ## Databases & Data persistence
 - Schema del db
-- Tecnologie
 
 ## Security
 - Protezione dati
