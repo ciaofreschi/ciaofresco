@@ -45,6 +45,7 @@
 - Postman
 - Swagger
 - App Quick-Type
+- Figma
 
 ## Documentations
 - Comments
