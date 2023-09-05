@@ -125,7 +125,7 @@ _Note: Password and Confirm Password must be the same_
 
 _Note: The review cannot be submitted without both a rating and textual feedback._
 
-_Note: The review must be published after a validation process by the administrators._
+_Note: The review must be approved after a validation process by the administrators._
 
 
 #### U8 - Edit review
