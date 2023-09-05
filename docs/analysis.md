@@ -30,6 +30,52 @@ Responsive web-app available to everyone with a browser and an internet connecti
 | **GU12** | Open Privacy Policy            | Shows the detailed privacy policy, informing users how their data is used, stored, and protected                                                                                  |
 | **GU13** | Open Terms & Conditions        | Displays the platform's terms and conditions which users must agree to during sign-up                                                                                             |
 
+#### GU4 - Change week
+
+1. The guest opens the app and lands on the main recipe recommendation screen.
+2. They spot a section indicating the currently selected week for recipe recommendations.
+3. Below or adjacent to the current week indicator, they find navigation buttons or arrows labeled "Previous Week" and "Next Week."
+4. The user clicks on "Previous Week" to view recipes curated for the past week. Conversely, they can click on "Next Week" to peek into upcoming weekly recipe suggestions.
+5. The list of recipes refreshes, reflecting the selection for the chosen week.
+
+_Note: The app may limit how many weeks back or ahead users can navigate._
+
+#### GU5 - Search recipes
+
+1. From the main screen or a dedicated search screen, the user finds a search bar or magnifying glass icon.
+2. They click into the search bar and are presented with an on-screen keyboard.
+3. As they type in keywords or ingredients, the app may suggest popular or relevant searches in a dropdown.
+4. After inputting their search criteria, the user presses the "Search" or "Enter" button on the keyboard.
+5. The app displays a list of recipes that match the search criteria, each with a brief overview and an option to view in detail.
+6. If no matches are found, the app provides a message such as "No recipes found for your search. Try different keywords."
+
+_Note: Search accuracy improves with more specific or unique keywords._
+
+#### GU6 - Filter recipes
+
+1. The guest lands on the main recipe listing or a search results page.
+2. They spot a "Filter" or "Refine" button, icon, or section.
+3. Upon selecting this, a modal or sidebar opens with multiple filtering options like cuisine type, preparation time, dietary restrictions, etc.
+4. The user selects one or more filters according to their preferences.
+5. There's a "Apply Filters" or "Show Results" button at the bottom of the modal or sidebar. The user clicks it.
+6. The list of recipes updates, showing only those that match the applied filters.
+7. The user has the option to clear or modify filters to adjust their search further.
+
+_Note: Multiple filters can be combined for a more refined search._
+
+#### GU7 - Download recipe
+
+1. The guest user navigates to a specific recipe detail page they're interested in.
+2. Detailed information about the recipe, like ingredients, preparation steps, and serving size, is presented.
+3. The user notices a "Download" button or icon
+4. Upon clicking this, they're given format options like PDF
+5. The user selects their preferred format and confirms the download.
+6. The app processes the request and the recipe begins downloading. Depending on the device and settings, the user might be asked where to save the file.
+7. Once downloaded, the user can access the recipe offline from the saved location.
+
+_Note: Some recipes might come with high-resolution images, leading to larger file sizes._
+
+
 
 ### User
 All the Guest user functionalities, including:
@@ -67,6 +113,58 @@ All the Guest user functionalities, including:
 5. The user clicks on "Sign Up" button to register their account.
 
 _Note: Password and Confirm Password must be the same_
+
+#### U7 - Insert review
+
+1. The user navigates to the recipe details page for a particular recipe.
+2. The user scrolls down to the "Reviews" section.
+3. The user clicks on the "Write a Review" button.
+4. A form or modal appears, prompting the user to rate the recipe (e.g., out of 5 stars), provide textual feedback and upload images.
+5. The user selects a rating, types their review in the provided text field and uploads some pics (optional).
+6. The user clicks on the "Submit" button to post the review.
+
+_Note: The review cannot be submitted without both a rating and textual feedback._
+
+_Note: The review must be published after a validation process by the administrators._
+
+
+#### U8 - Edit review
+
+1. The user navigates to the recipe details page where they've previously posted a review.
+2. The user finds their review under the "Reviews" section.
+3. The user clicks on the "Edit" button/icon next to their review.
+4. A form or modal appears, pre-filled with the user's previous rating, images and textual feedback.
+5. The user modifies the rating, the textual feedback, or both and can upload/delete images.
+6. The user clicks on the "Update" button to save the changes.
+
+_Note: The review cannot be updated without both a rating and textual feedback._
+
+_Note: The modification must be accepted after a validation process by the administrators._
+
+#### U9 - Delete review
+
+1. The user navigates to the recipe details page where they've previously posted a review.
+2. The user finds their review under the "Reviews" section.
+3. The user clicks on the "Delete" button/icon next to their review.
+4. A confirmation prompt appears, asking the user if they're sure about deleting the review.
+5. The user confirms by clicking on "Yes, Delete".
+6. The review is removed from the list.
+
+_Note: This action is irreversible._
+
+_Note: The deletion is possible within a time range (e.g. within 10 hour of publication)._
+
+#### U10 - Insert variant
+
+1. The user navigates to the recipe details page for a particular recipe.
+2. The user scrolls down to the "Variants" or "Recipe Modifications" section.
+3. The user clicks on the "Suggest a Variant" button.
+4. A form or modal appears, prompting the user to describe the variant, e.g., ingredient swaps, cooking methods, etc.
+5. The user fills in the details of their suggested variant.
+6. The user clicks on the "Submit" button to post the variant.
+
+_Note: The variant description must be provided._
+
 
 ## Platform Characteristics
 The platform is going to be a PWA, responsive using cutting edge web frameworks and technologies.
