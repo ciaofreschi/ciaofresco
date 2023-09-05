@@ -26,9 +26,8 @@ Responsive web-app available to everyone with a browser and an internet connecti
 | **GU8**  | View recipe detail             | Detailed view of a recipe, including ingredients, steps, preparation time, serving size, and user reviews                                                                         |
 | **GU9**  | Open settings                  | Provides access to various app settings like theme, language, privacy settings, etc                                                                                               |
 | **GU10** | Change theme                   | Users can toggle between light and dark mode, or select other thematic designs                                                                                                    |
-| **GU11** | Change language                | Lets users switch the app language from a list of supported languages                                                                                                             |
-| **GU12** | Open Privacy Policy            | Shows the detailed privacy policy, informing users how their data is used, stored, and protected                                                                                  |
-| **GU13** | Open Terms & Conditions        | Displays the platform's terms and conditions which users must agree to during sign-up                                                                                             |
+| **GU11** | Open Privacy Policy            | Shows the detailed privacy policy, informing users how their data is used, stored, and protected                                                                                  |
+| **GU12** | Open Terms & Conditions        | Displays the platform's terms and conditions which users must agree to during sign-up                                                                                             |
 
 #### GU4 - Change week
 

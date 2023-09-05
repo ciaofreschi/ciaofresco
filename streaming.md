@@ -1,6 +1,7 @@
 # Argomenti interessanti da includere
 - Discussione su Infrastructure As Code
 - Tools AI durante lo sviluppo
+- GitHub projects
 
 
 # Iniziative
