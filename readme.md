@@ -13,3 +13,6 @@ E' un servizio che ti permette di ricevere settimanalmente gli ingredienti per p
 ## Chi siamo
 Siamo Matteo e Marco, due titolari di azienda e sviluppatori che vogliono provare a sviluppare un progetto con tecnologie e framework a noi sconosciuti con lo scopo di imparare e condividere le nostre esperienze.
 
+
+# External developments
+[Miro Board with wireframes](https://miro.com/app/board/uXjVNdzFHm4=/?share_link_id=915358144048)
