@@ -14,20 +14,20 @@ Responsive web-app available to everyone with a browser and an internet connecti
 
 ### Guest User
 
-| ID       | Function                       | Short description                                                                                                                                                                 | 
-|----------|--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ID       | Function                       | Short description                                                                                                                                                             | 
+|----------|--------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **GU1**  | Sign up                        | The user can insert First name, Last Name, E-mail, Password and Confirm Password. Then, by clicking on "SignUp", and checking the terms and conditions box the account is created |
-| **GU2**  | Change location                | Allows users to set their current location or preferred location for better recipe recommendations based on region-specific cuisines                                              |
-| **GU3**  | Check recipes for a given week | Users can view a list of recipes curated for the week, helping with meal planning                                                                                                 |
-| **GU4**  | Change week                    | Users can navigate between different weeks to see past or upcoming weekly recipe recommendations                                                                                  |
-| **GU5**  | Search recipes                 | Allows users to search for specific recipes based on keywords or ingredients                                                                                                      |
-| **GU6**  | Filter recipes                 | Users can apply filters (e.g. cuisine, preparation time, dietary restrictions) to the recipe list to narrow down their choices                                                    |
-| **GU7**  | Download recipe                | Users can download a specific recipe in a user-friendly format (e.g., PDF) for offline access                                                                                     |
-| **GU8**  | View recipe detail             | Detailed view of a recipe, including ingredients, steps, preparation time, serving size, and user reviews                                                                         |
-| **GU9**  | Open settings                  | Provides access to various app settings like theme, language, privacy settings, etc                                                                                               |
-| **GU10** | Change theme                   | Users can toggle between light and dark mode, or select other thematic designs                                                                                                    |
-| **GU11** | Open Privacy Policy            | Shows the detailed privacy policy, informing users how their data is used, stored, and protected                                                                                  |
-| **GU12** | Open Terms & Conditions        | Displays the platform's terms and conditions which users must agree to during sign-up                                                                                             |
+| **GU2**  | Change location                | Allows users to set their current location for better recipe recommendations based on region-specific cuisines                                              |
+| **GU3**  | Check recipes for a given week | Users can view a list of recipes curated for the week, helping with meal planning                                                                                             |
+| **GU4**  | Change week                    | Users can navigate between different weeks to see past or upcoming weekly recipe recommendations                                                                              |
+| **GU5**  | Search recipes                 | Allows users to search for specific recipes based on keywords or ingredients                                                                                                  |
+| **GU6**  | Filter recipes                 | Users can apply filters (e.g. cuisine, preparation time, dietary restrictions) to the recipe list to narrow down their choices                                                |
+| **GU7**  | Download recipe                | Users can download a specific recipe in a user-friendly format (e.g., PDF) for offline access                                                                                 |
+| **GU8**  | View recipe detail             | Detailed view of a recipe, including ingredients, steps, preparation time, serving size, and user reviews                                                                     |
+| **GU9**  | Open settings                  | Provides access to various app settings like theme, language, privacy settings, etc                                                                                           |
+| **GU10** | Change theme                   | Users can toggle between light and dark mode, or select other thematic designs                                                                                                |
+| **GU11** | Open Privacy Policy            | Shows the detailed privacy policy, informing users how their data is used, stored, and protected                                                                              |
+| **GU12** | Open Terms & Conditions        | Displays the platform's terms and conditions which users must agree to during sign-up                                                                                         |
 
 #### GU4 - Change week
 
