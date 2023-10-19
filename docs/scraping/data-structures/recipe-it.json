@@ -1,0 +1,589 @@
+{
+    "active": true,
+    "allergens": [
+        {
+            "id": "57962a07b7e8697d4b3052f5",
+            "name": "Glutine",
+            "type": "gluten",
+            "slug": "glutine",
+            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/allergens/57962a07b7e8697d4b3052f5-e20d9ca4.png",
+            "iconPath": "/allergens/57962a07b7e8697d4b3052f5-e20d9ca4.png",
+            "triggersTracesOf": false,
+            "tracesOf": false
+        },
+        {
+            "id": "5b0532aaae08b52eb9420552",
+            "name": "Soia",
+            "type": "traces-of-soya",
+            "slug": "traces-of-soia",
+            "iconPath": null,
+            "triggersTracesOf": false,
+            "tracesOf": true
+        },
+        {
+            "id": "57962a07b7e8697d4b3052f3",
+            "name": "Può contenere tracce di allergeni",
+            "type": "maycontaintracesofallergens",
+            "slug": "Può contenere tracce di allergeni",
+            "iconPath": null,
+            "triggersTracesOf": true,
+            "tracesOf": true
+        }
+    ],
+    "averageRating": null,
+    "canonical": null,
+    "canonicalLink": null,
+    "cardLink": "https://hellofresh.com/recipecards/card/64ba83cfd4684302b87576ce.pdf",
+    "category": null,
+    "clonedFrom": "6451129ae915ac78ee7c67e3",
+    "comment": null,
+    "country": "IT",
+    "createdAt": "2023-07-21T13:10:39+00:00",
+    "cuisines": [
+        {
+            "id": "57ebbc17b7e8697d4b3053ac",
+            "type": "italian",
+            "name": "Italiana",
+            "slug": "italiana",
+            "iconLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/cuisines/57ebbc17b7e8697d4b3053ac-ed3b5276.jpg"
+        }
+    ],
+    "description": "Rispetto alla pancetta, il guanciale è un salume dalla consistenza più soda e compatta e un sapore caratteristico, intenso e profondo. In Italia è un prodotto tradizionale molto apprezzato per la preparazione di primi piatti, come l'Amatriciana, la gricia e la carbonara, ma anche per creare nuove ricette saporite e sostanziose. Con la crema di ceci al rosmarino e il trito di pomodori secchi si unisce in un sali e scendi di gusti: dolce, balsamico, sapido, acidulo. \nDivertitevi a cucinare! Ricordatevi di votare la vostra ricetta preferita!",
+    "descriptionHTML": "<p>Rispetto alla pancetta, il guanciale è un salume dalla consistenza più soda e compatta e un sapore caratteristico, intenso e profondo. In Italia è un prodotto tradizionale molto apprezzato per la preparazione di primi piatti, come l'Amatriciana, la gricia e la carbonara, ma anche per creare nuove ricette saporite e sostanziose. Con la crema di ceci al rosmarino e il trito di pomodori secchi si unisce in un sali e scendi di gusti: dolce, balsamico, sapido, acidulo. </p>\n<p>Divertitevi a cucinare! Ricordatevi di votare la vostra ricetta preferita!</p>",
+    "descriptionMarkdown": "Rispetto alla pancetta, il guanciale è un salume dalla consistenza più soda e compatta e un sapore caratteristico, intenso e profondo. In Italia è un prodotto tradizionale molto apprezzato per la preparazione di primi piatti, come l'Amatriciana, la gricia e la carbonara, ma anche per creare nuove ricette saporite e sostanziose. Con la crema di ceci al rosmarino e il trito di pomodori secchi si unisce in un sali e scendi di gusti: dolce, balsamico, sapido, acidulo. \n\nDivertitevi a cucinare! Ricordatevi di votare la vostra ricetta preferita!",
+    "difficulty": 1,
+    "favoritesCount": 1,
+    "headline": "con pomodori secchi e prezzemolo",
+    "id": "64ba83cfd4684302b87576ce",
+    "imageLink": "https://d3hvwccx09j84u.cloudfront.net/0,0/image/HF_Y23_R04_W43_IT_IT27211286-10_MAIN__8high-272dca20.jpg",
+    "imagePath": "/image/HF_Y23_R04_W43_IT_IT27211286-10_MAIN__8high-272dca20.jpg",
+    "ingredients": [
+        {
+            "id": "62ea705e2d32c6b1e49bc4df",
+            "uuid": "33029324-f0e0-5e63-9f6f-3934ffe1bf83",
+            "name": "Aglio",
+            "type": "garlic",
+            "slug": "aglio",
+            "country": "IT",
+            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62ea705e2d32c6b1e49bc4df-4d9e675d.png",
+            "imagePath": "/ingredient/62ea705e2d32c6b1e49bc4df-4d9e675d.png",
+            "shipped": true,
+            "allergens": [],
+            "family": {
+                "id": "6299e0f4f7cd25bc1c024384",
+                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+                "name": "none",
+                "slug": "none",
+                "type": "none",
+                "priority": 0,
+                "iconLink": null,
+                "iconPath": null
+            }
+        },
+        {
+            "id": "62ea706a0000e2dd1bb91a2b",
+            "uuid": "040eb90c-dd30-595f-9558-4c6ff3d179ea",
+            "name": "Rosmarino",
+            "type": "rosemary",
+            "slug": "rosmarino",
+            "country": "IT",
+            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62ea706a0000e2dd1bb91a2b-63d56401.png",
+            "imagePath": "/ingredient/62ea706a0000e2dd1bb91a2b-63d56401.png",
+            "shipped": true,
+            "allergens": [],
+            "family": {
+                "id": "6299e0f4f7cd25bc1c024384",
+                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+                "name": "none",
+                "slug": "none",
+                "type": "none",
+                "priority": 0,
+                "iconLink": null,
+                "iconPath": null
+            }
+        },
+        {
+            "id": "614c4fcb52f99d6ee738a4fd",
+            "uuid": "6d11977b-453f-5ff7-896c-4212e389d1a5",
+            "name": "Guanciale",
+            "type": "guanciale",
+            "slug": "guanciale",
+            "country": "IT",
+            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/614c4fcb52f99d6ee738a4fd-55430d5c.png",
+            "imagePath": "/ingredient/614c4fcb52f99d6ee738a4fd-55430d5c.png",
+            "shipped": true,
+            "allergens": [],
+            "family": {
+                "id": "58877cf3ed71a76e9c03fb3e",
+                "uuid": "d6bf14fc-6d40-5417-91c8-7713fb8ccdd0",
+                "name": "Pancetta",
+                "slug": "pancetta",
+                "type": "bacon",
+                "priority": 0,
+                "iconLink": null,
+                "iconPath": null
+            }
+        },
+        {
+            "id": "63378354ebff879ce569ae91",
+            "uuid": "67ed2a73-776c-5bd2-b8bc-2c60832399da",
+            "name": "Spaghetti",
+            "type": "spaghetti",
+            "slug": "spaghetti",
+            "country": "IT",
+            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62ea706c2d32c6b1e49bc50f-8187b2b6.png",
+            "imagePath": "/ingredient/62ea706c2d32c6b1e49bc50f-8187b2b6.png",
+            "shipped": true,
+            "allergens": [
+                "5b0532aaae08b52eb9420552",
+                "57962a07b7e8697d4b3052f3",
+                "57962a07b7e8697d4b3052f5"
+            ],
+            "family": {
+                "id": "6299e0f4f7cd25bc1c024384",
+                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+                "name": "none",
+                "slug": "none",
+                "type": "none",
+                "priority": 0,
+                "iconLink": null,
+                "iconPath": null
+            }
+        },
+        {
+            "id": "62ea705d1158a15916068742",
+            "uuid": "4d63ab7b-4672-4dfa-a8e8-138abfc6d670",
+            "name": "Pomodori Secchi",
+            "type": "dry-tomatoes",
+            "slug": "pomodori-secchi",
+            "country": "IT",
+            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62ea705d1158a15916068742-892e17cb.png",
+            "imagePath": "/ingredient/62ea705d1158a15916068742-892e17cb.png",
+            "shipped": true,
+            "allergens": [],
+            "family": {
+                "id": "6299e0f4f7cd25bc1c024384",
+                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+                "name": "none",
+                "slug": "none",
+                "type": "none",
+                "priority": 0,
+                "iconLink": null,
+                "iconPath": null
+            }
+        },
+        {
+            "id": "62ea705c2d32c6b1e49bc4d8",
+            "uuid": "81ee030d-c41d-5521-acb8-338b9e877fca",
+            "name": "Ceci",
+            "type": "chickpeas",
+            "slug": "ceci",
+            "country": "IT",
+            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62ea705c2d32c6b1e49bc4d8-ac4faff2.png",
+            "imagePath": "/ingredient/62ea705c2d32c6b1e49bc4d8-ac4faff2.png",
+            "shipped": true,
+            "allergens": [],
+            "family": {
+                "id": "6299e0f4f7cd25bc1c024384",
+                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+                "name": "none",
+                "slug": "none",
+                "type": "none",
+                "priority": 0,
+                "iconLink": null,
+                "iconPath": null
+            }
+        },
+        {
+            "id": "62ea70650000e2dd1bb91a18",
+            "uuid": "a219b2fc-a06b-588c-9b50-40f464b8a784",
+            "name": "Prezzemolo",
+            "type": "parsley",
+            "slug": "prezzemolo",
+            "country": "IT",
+            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/62ea70650000e2dd1bb91a18-c44a6a6f.png",
+            "imagePath": "/ingredient/62ea70650000e2dd1bb91a18-c44a6a6f.png",
+            "shipped": true,
+            "allergens": [],
+            "family": {
+                "id": "6299e0f4f7cd25bc1c024384",
+                "uuid": "9996416b-db42-55fe-b207-53e1a696a180",
+                "name": "none",
+                "slug": "none",
+                "type": "none",
+                "priority": 0,
+                "iconLink": null,
+                "iconPath": null
+            }
+        },
+        {
+            "id": "611cf199e0209d358f47d4f6",
+            "uuid": "d0cb9add-3455-46e1-9346-6f2c05e2274f",
+            "name": "Olio d'oliva",
+            "type": "olive-oil-olio-doliva",
+            "slug": "olio-doliva",
+            "country": "IT",
+            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/611cf199e0209d358f47d4f6-ccb39c29.png",
+            "imagePath": "/ingredient/611cf199e0209d358f47d4f6-ccb39c29.png",
+            "shipped": false,
+            "allergens": [],
+            "family": {
+                "id": "58877cf3ed71a76e9c03fbeb",
+                "uuid": "7c98f5ea-c7e6-530f-a8f7-837099e95a74",
+                "name": "Olio d'oliva",
+                "slug": "olio-d'oliva",
+                "type": "olive-oil",
+                "priority": 0,
+                "iconLink": null,
+                "iconPath": null
+            }
+        },
+        {
+            "id": "611cf19de0209d358f47d506",
+            "uuid": "bb1adcb5-4f4c-4e27-b659-799d03aaaa0a",
+            "name": "Sale",
+            "type": "salt-sale",
+            "slug": "sale",
+            "country": "IT",
+            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/611cf19de0209d358f47d506-fa313d41.png",
+            "imagePath": "/ingredient/611cf19de0209d358f47d506-fa313d41.png",
+            "shipped": false,
+            "allergens": [],
+            "family": {
+                "id": "58877cf3ed71a76e9c03fc25",
+                "uuid": "3f408771-5872-55e3-95fb-9fc1f9b31aff",
+                "name": "Sale",
+                "slug": "sale",
+                "type": "salt",
+                "priority": 0,
+                "iconLink": null,
+                "iconPath": null
+            }
+        },
+        {
+            "id": "6141e9dc6028d67aca3e0372",
+            "uuid": "ad7960be-2c50-4f6c-9d72-b155e3040020",
+            "name": "Pepe",
+            "type": "pepper-pepe",
+            "slug": "pepe",
+            "country": "IT",
+            "imageLink": "https://d3hvwccx09j84u.cloudfront.net/200,200/ingredient/6141e9dc6028d67aca3e0372-f14c6b19.png",
+            "imagePath": "/ingredient/6141e9dc6028d67aca3e0372-f14c6b19.png",
+            "shipped": false,
+            "allergens": [],
+            "family": {
+                "id": "58877cf3ed71a76e9c03fc05",
+                "uuid": "1a4ca769-9a3a-5784-947b-31ea6b9b05ae",
+                "name": "Pepe",
+                "slug": "pepe",
+                "type": "pepper-spice",
+                "priority": 0,
+                "iconLink": null,
+                "iconPath": null
+            }
+        }
+    ],
+    "isAddon": false,
+    "isComplete": null,
+    "label": {
+        "text": "Scelto da voi",
+        "handle": "customer-favourites",
+        "foregroundColor": "#FFFFFF",
+        "backgroundColor": "#b980d0",
+        "displayLabel": true
+    },
+    "link": "https://hellofresh.com/recipes/64ba83cfd4684302b87576ce",
+    "name": "Spaghetti in crema di ceci e guanciale dorato",
+    "nutrition": [
+        {
+            "type": "57b42a48b7e8697d4b30530d",
+            "name": "Energia (kJ)",
+            "amount": 4000,
+            "unit": "kJ"
+        },
+        {
+            "type": "57b42a48b7e8697d4b305304",
+            "name": "Energia",
+            "amount": 956,
+            "unit": "Kcal"
+        },
+        {
+            "type": "57b42a48b7e8697d4b305307",
+            "name": "Grassi",
+            "amount": 36.6,
+            "unit": "g"
+        },
+        {
+            "type": "57b42a48b7e8697d4b305308",
+            "name": "di cui Acidi Grassi Saturi",
+            "amount": 11.9,
+            "unit": "g"
+        },
+        {
+            "type": "57b42a48b7e8697d4b305305",
+            "name": "Carboidrati",
+            "amount": 116,
+            "unit": "g"
+        },
+        {
+            "type": "57b42a48b7e8697d4b305306",
+            "name": "di cui Zuccheri",
+            "amount": 8.7,
+            "unit": "g"
+        },
+        {
+            "type": "57b42a48b7e8697d4b30530a",
+            "name": "Fibre",
+            "amount": 16.6,
+            "unit": "g"
+        },
+        {
+            "type": "57b42a48b7e8697d4b305309",
+            "name": "Proteine",
+            "amount": 32.7,
+            "unit": "g"
+        },
+        {
+            "type": "57b42a48b7e8697d4b30530c",
+            "name": "Colesterolo",
+            "amount": 0,
+            "unit": "mg"
+        },
+        {
+            "type": "57b42a48b7e8697d4b30530b",
+            "name": "Sodio",
+            "amount": 2.17,
+            "unit": "mg"
+        }
+    ],
+    "prepTime": "PT20M",
+    "promotion": null,
+    "ratingsCount": 0,
+    "seoDescription": null,
+    "seoName": null,
+    "servingSize": 401,
+    "slug": "spaghetti-in-crema-di-ceci-e-guanciale-dorato",
+    "steps": [
+        {
+            "index": 1,
+            "instructions": "Portate a bollore una pentola d'acqua salata per la pasta.\nScolate i ceci dal liquido di conservazione e sciacquateli sotto acqua corrente.\nRosolate l'aglio (potete tenere la buccia) con un filo d'olio in una padella antiaderente a fuoco medio, per 1-2 minuti.Aggiungete i ceci, il rosmarino, un pizzico di sale, pepe, 100 ml di acqua (circa mezzo bicchiere) per 2 persone e cuocete con un coperchio per 5-6 minuti.\n ",
+            "instructionsHTML": "<p>Portate a bollore una pentola d&#39;<strong>acqua</strong> salata per la pasta.</p>\n<p>Scolate i <strong>ceci</strong> dal liquido di conservazione e sciacquateli sotto acqua corrente.</p>\n<p>Rosolate l&#39;<strong>aglio</strong> (potete tenere la buccia) con un filo d&#39;<strong>olio</strong> in una padella antiaderente a fuoco medio, per 1-2 minuti.<br><br>Aggiungete i <strong>ceci</strong>, il <strong>rosmarino</strong>, un pizzico di <strong>sale</strong>, <strong>pepe</strong>, 100 ml di <strong>acqua</strong> (circa mezzo bicchiere) per 2 persone e cuocete con un coperchio per 5-6 minuti.</p>\n<p> </p>",
+            "instructionsMarkdown": "<p>Portate a bollore una pentola d&#39;<strong>acqua</strong> salata per la pasta.</p>\n<p>Scolate i <strong>ceci</strong> dal liquido di conservazione e sciacquateli sotto acqua corrente.</p>\n<p>Rosolate l&#39;<strong>aglio</strong> (potete tenere la buccia) con un filo d&#39;<strong>olio</strong> in una padella antiaderente a fuoco medio, per 1-2 minuti.<br><br>Aggiungete i <strong>ceci</strong>, il <strong>rosmarino</strong>, un pizzico di <strong>sale</strong>, <strong>pepe</strong>, 100 ml di <strong>acqua</strong> (circa mezzo bicchiere) per 2 persone e cuocete con un coperchio per 5-6 minuti.</p>\n<p> </p>",
+            "ingredients": [],
+            "utensils": [],
+            "timers": [],
+            "images": [
+                {
+                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64ba83cfd4684302b87576ce/step-34231a00.jpg",
+                    "path": "/64ba83cfd4684302b87576ce/step-34231a00.jpg",
+                    "caption": "Preparare la crema di ceci"
+                }
+            ],
+            "videos": []
+        },
+        {
+            "index": 2,
+            "instructions": "Eliminate aglio e rosmarino e frullate i ceci con il loro fondo di cottura e con 1 cucchiaio di olio per persona, fino a ottenere una crema liscia. Se necessario, aggiungete altra acqua calda per regolare la consistenza e aggiustate di sale.\nRiportate la stessa padella sul fuoco medio e rosolate il guanciale per 6-7 minuti, finché sarà dorato e croccante.\nNel frattempo, lessate la pasta al dente, seguendo i tempi riportati sulla confezione.\nTagliate i pomodorini secchi a tocchetti e tritate finemente il prezzemolo.",
+            "instructionsHTML": "<p>Eliminate <strong>aglio</strong> e <strong>rosmarino </strong>e frullate i <strong>ceci</strong> con il loro fondo di cottura e con 1 cucchiaio di <strong>olio</strong> per persona, fino a ottenere una crema liscia. Se necessario, aggiungete altra acqua calda per regolare la consistenza e aggiustate di sale.</p>\n<p>Riportate la stessa padella sul fuoco medio e rosolate il <strong>guanciale</strong> per 6-7 minuti, finché sarà dorato e croccante.</p>\n<p>Nel frattempo, lessate la <strong>pasta</strong> al dente, seguendo i tempi riportati sulla confezione.</p>\n<p>Tagliate i <strong>pomodorini</strong> <strong>secchi</strong> a tocchetti e tritate finemente il <strong>prezzemolo</strong>.</p>",
+            "instructionsMarkdown": "<p>Eliminate <strong>aglio</strong> e <strong>rosmarino </strong>e frullate i <strong>ceci</strong> con il loro fondo di cottura e con 1 cucchiaio di <strong>olio</strong> per persona, fino a ottenere una crema liscia. Se necessario, aggiungete altra acqua calda per regolare la consistenza e aggiustate di sale.</p>\n<p>Riportate la stessa padella sul fuoco medio e rosolate il <strong>guanciale</strong> per 6-7 minuti, finché sarà dorato e croccante.</p>\n<p>Nel frattempo, lessate la <strong>pasta</strong> al dente, seguendo i tempi riportati sulla confezione.</p>\n<p>Tagliate i <strong>pomodorini</strong> <strong>secchi</strong> a tocchetti e tritate finemente il <strong>prezzemolo</strong>.</p>",
+            "ingredients": [],
+            "utensils": [],
+            "timers": [],
+            "images": [
+                {
+                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64ba83cfd4684302b87576ce/step-94f38710.jpg",
+                    "path": "/64ba83cfd4684302b87576ce/step-94f38710.jpg",
+                    "caption": "Rosolare il guanciale"
+                }
+            ],
+            "videos": []
+        },
+        {
+            "index": 3,
+            "instructions": "Tenete da parte 1-2 mestoli di acqua di cottura e scolate la pasta.\nTrasferitela nella padella con il guanciale, unite 1 mestolo di acqua di cottura, la crema di ceci e proseguite la cottura per 1 minuto a fuoco alto, mescolando bene per amalgamare gli ingredienti.",
+            "instructionsHTML": "<p>Tenete da parte 1-2 mestoli di <strong>acqua di cottura</strong> e scolate la <strong>pasta</strong>.</p>\n<p>Trasferitela nella padella con il <strong>guanciale</strong>, unite 1 mestolo di <strong>acqua di cottura</strong>, la <strong>crema di ceci </strong>e proseguite la cottura per 1 minuto a fuoco alto, mescolando bene per amalgamare gli ingredienti.</p>",
+            "instructionsMarkdown": "<p>Tenete da parte 1-2 mestoli di <strong>acqua di cottura</strong> e scolate la <strong>pasta</strong>.</p>\n<p>Trasferitela nella padella con il <strong>guanciale</strong>, unite 1 mestolo di <strong>acqua di cottura</strong>, la <strong>crema di ceci </strong>e proseguite la cottura per 1 minuto a fuoco alto, mescolando bene per amalgamare gli ingredienti.</p>",
+            "ingredients": [],
+            "utensils": [],
+            "timers": [],
+            "images": [
+                {
+                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64ba83cfd4684302b87576ce/step-b4c1a120.jpg",
+                    "path": "/64ba83cfd4684302b87576ce/step-b4c1a120.jpg",
+                    "caption": "Mantecare la pasta"
+                }
+            ],
+            "videos": []
+        },
+        {
+            "index": 4,
+            "instructions": "Disponete la pasta nei piatti.\nGuarnite con i pomodori secchi, il prezzemolo e una macinata di pepe a piacere.",
+            "instructionsHTML": "<p>Disponete la <strong>pasta</strong> nei piatti.</p>\n<p>Guarnite con i <strong>pomodori secchi</strong>, il <strong>prezzemolo</strong> e una macinata di <strong>pepe</strong> a piacere.</p>",
+            "instructionsMarkdown": "<p>Disponete la <strong>pasta</strong> nei piatti.</p>\n<p>Guarnite con i <strong>pomodori secchi</strong>, il <strong>prezzemolo</strong> e una macinata di <strong>pepe</strong> a piacere.</p>",
+            "ingredients": [],
+            "utensils": [],
+            "timers": [],
+            "images": [
+                {
+                    "link": "https://d3hvwccx09j84u.cloudfront.net/0,0/64ba83cfd4684302b87576ce/step-27a1ba30.jpg",
+                    "path": "/64ba83cfd4684302b87576ce/step-27a1ba30.jpg",
+                    "caption": "Disporre nei piatti"
+                }
+            ],
+            "videos": []
+        }
+    ],
+    "tags": [
+        {
+            "id": "594be44bc6243b76f8440332",
+            "type": "quick",
+            "name": "Veloce",
+            "slug": "quick",
+            "colorHandle": "quickPrep",
+            "preferences": [
+                "Carne & Pesce",
+                "Famiglia",
+                "Conta Calorie",
+                "Vegetariano"
+            ],
+            "displayLabel": true
+        },
+        {
+            "id": "57d13370b7e8697d4b30531d",
+            "type": "child-friendly",
+            "name": "Famiglia",
+            "slug": "famiglia",
+            "colorHandle": null,
+            "preferences": [],
+            "displayLabel": true
+        },
+        {
+            "id": "6405cabf392bf2129bbe02aa",
+            "type": "regional",
+            "name": "Italiana",
+            "slug": "italiana",
+            "colorHandle": "text",
+            "preferences": [],
+            "displayLabel": false
+        }
+    ],
+    "totalTime": "PT10M",
+    "uniqueRecipeCode": "IT27211286-10",
+    "updatedAt": "2023-10-18T09:03:31+00:00",
+    "utensils": [],
+    "uuid": "057cd5ae-1fd5-46ef-a82b-0096d564ab03",
+    "videoLink": null,
+    "websiteUrl": "https://www.hellofresh.it/recipes/spaghetti-in-crema-di-ceci-e-guanciale-dorato-64ba83cfd4684302b87576ce",
+    "yields": [
+        {
+            "yields": 2,
+            "ingredients": [
+                {
+                    "id": "62ea705e2d32c6b1e49bc4df",
+                    "amount": 1,
+                    "unit": "pezzo(i)"
+                },
+                {
+                    "id": "62ea706a0000e2dd1bb91a2b",
+                    "amount": 1,
+                    "unit": "pezzo(i)"
+                },
+                {
+                    "id": "614c4fcb52f99d6ee738a4fd",
+                    "amount": 100,
+                    "unit": "g"
+                },
+                {
+                    "id": "63378354ebff879ce569ae91",
+                    "amount": 1,
+                    "unit": "pacchetto"
+                },
+                {
+                    "id": "62ea705d1158a15916068742",
+                    "amount": 1,
+                    "unit": "pacchetto"
+                },
+                {
+                    "id": "62ea705c2d32c6b1e49bc4d8",
+                    "amount": 1,
+                    "unit": "pacchetto"
+                },
+                {
+                    "id": "62ea70650000e2dd1bb91a18",
+                    "amount": 5,
+                    "unit": "g"
+                },
+                {
+                    "id": "611cf199e0209d358f47d4f6",
+                    "amount": null,
+                    "unit": "q.b."
+                },
+                {
+                    "id": "611cf19de0209d358f47d506",
+                    "amount": null,
+                    "unit": "q.b."
+                },
+                {
+                    "id": "6141e9dc6028d67aca3e0372",
+                    "amount": null,
+                    "unit": "q.b."
+                }
+            ]
+        },
+        {
+            "yields": 4,
+            "ingredients": [
+                {
+                    "id": "62ea705e2d32c6b1e49bc4df",
+                    "amount": 2,
+                    "unit": "pezzo(i)"
+                },
+                {
+                    "id": "62ea706a0000e2dd1bb91a2b",
+                    "amount": 2,
+                    "unit": "pezzo(i)"
+                },
+                {
+                    "id": "614c4fcb52f99d6ee738a4fd",
+                    "amount": 200,
+                    "unit": "g"
+                },
+                {
+                    "id": "63378354ebff879ce569ae91",
+                    "amount": 1,
+                    "unit": "pacchetto"
+                },
+                {
+                    "id": "62ea705d1158a15916068742",
+                    "amount": 2,
+                    "unit": "pacchetto"
+                },
+                {
+                    "id": "62ea705c2d32c6b1e49bc4d8",
+                    "amount": 2,
+                    "unit": "pacchetto"
+                },
+                {
+                    "id": "62ea70650000e2dd1bb91a18",
+                    "amount": 10,
+                    "unit": "g"
+                },
+                {
+                    "id": "611cf199e0209d358f47d4f6",
+                    "amount": null,
+                    "unit": "q.b."
+                },
+                {
+                    "id": "611cf19de0209d358f47d506",
+                    "amount": null,
+                    "unit": "q.b."
+                },
+                {
+                    "id": "6141e9dc6028d67aca3e0372",
+                    "amount": null,
+                    "unit": "q.b."
+                }
+            ]
+        }
+    ]
+}
