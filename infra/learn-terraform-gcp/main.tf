@@ -18,25 +18,64 @@ resource "google_compute_network" "vpc_network" {
   name = "terraform-network" # [a-z]([-a-z0-9]*[a-z0-9])?
 }
 
-resource "google_cloud_run_service" "default" {
+resource "google_artifact_registry_repository" "ciaofresco-backend-repo" {
+  location      = "europe-west1"
+  repository_id = "ciaofresco-backend"
+  description   = "Backend for CiaoFresco application"
+  format        = "DOCKER"
+
+  docker_config {
+    immutable_tags = true
+  }
+}
+
+
+resource "google_cloud_run_v2_service" "default" {
   name     = "ciaofresco-backend"
-  location = "eu-west1"
+  location = "europe-west1"
+  ingress  = "INGRESS_TRAFFIC_ALL"
 
   template {
-    spec {
-      containers {
-        image = "us-docker.pkg.dev/cloudrun/container/hello"
-      }
+    scaling {
+      max_instance_count = 2
     }
 
-    metadata {
-      annotations = {
-        "autoscaling.knative.dev/maxScale"      = "1000"
-        "run.googleapis.com/cloudsql-instances" = google_sql_database_instance.ciaofresco-db.connection_name
-        "run.googleapis.com/client-name"        = "terraform"
+    volumes {
+      name = "cloudsql"
+      cloud_sql_instance {
+        instances = [google_sql_database_instance.ciaofresco-db.connection_name]
+      }
+    }
+    containers {
+      image = "europe-west1-docker.pkg.dev/ciaofresco/ciaofresco-backend/ciaofresco-backend:0.0.1"
+
+      volume_mounts {
+        name       = "cloudsql"
+        mount_path = "/cloudsql"
       }
     }
   }
-  autogenerate_revision_name = true
+
+  traffic {
+    type    = "TRAFFIC_TARGET_ALLOCATION_TYPE_LATEST"
+    percent = 100
+  }
+}
+
+data "google_iam_policy" "noauth" {
+  binding {
+    role = "roles/run.invoker"
+    members = [
+      "allUsers",
+    ]
+  }
+}
+
+resource "google_cloud_run_service_iam_policy" "noauth" {
+  location = google_cloud_run_v2_service.default.location
+  project  = google_cloud_run_v2_service.default.project
+  service  = google_cloud_run_v2_service.default.name
+
+  policy_data = data.google_iam_policy.noauth.policy_data
 }
 
