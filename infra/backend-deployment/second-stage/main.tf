@@ -13,21 +13,6 @@ provider "google" {
   zone    = "eu-west1-a"
 }
 
-#google_compute_network.vpc_network
-resource "google_compute_network" "vpc_network" {
-  name = "terraform-network" # [a-z]([-a-z0-9]*[a-z0-9])?
-}
-
-resource "google_artifact_registry_repository" "ciaofresco-backend-repo" {
-  location      = "europe-west1"
-  repository_id = "ciaofresco-backend"
-  description   = "Backend for CiaoFresco application"
-  format        = "DOCKER"
-
-  docker_config {
-    immutable_tags = true
-  }
-}
 
 
 resource "google_cloud_run_v2_service" "default" {
@@ -43,7 +28,7 @@ resource "google_cloud_run_v2_service" "default" {
     volumes {
       name = "cloudsql"
       cloud_sql_instance {
-        instances = [google_sql_database_instance.ciaofresco-db.connection_name]
+        instances = [google_sql_database_instance.ciaofresco-sql.connection_name]
       }
     }
     containers {
@@ -78,4 +63,4 @@ resource "google_cloud_run_service_iam_policy" "noauth" {
 
   policy_data = data.google_iam_policy.noauth.policy_data
 }
-
+ 
