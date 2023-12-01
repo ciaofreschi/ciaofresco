@@ -7,14 +7,17 @@ terraform {
   }
 }
 
+
 provider "google" {
-  project = "ciaofresco"
-  region  = "eu-west1"
-  zone    = "eu-west1-a"
+  project = var.project_id
+  region  = var.region
+  zone    = var.zone
 }
 
+
 resource "google_artifact_registry_repository" "ciaofresco-backend-repo" {
-  location      = "europe-west1"
+  provider      = google
+  location      = var.region
   repository_id = "ciaofresco-backend"
   description   = "Backend for CiaoFresco application"
   format        = "DOCKER"

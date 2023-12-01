@@ -8,12 +8,10 @@ terraform {
 }
 
 provider "google" {
-  project = "ciaofresco"
-  region  = "eu-west1"
-  zone    = "eu-west1-a"
+  project = var.project_id
+  region  = var.region
+  zone    = var.zone
 }
-
-
 
 resource "google_cloud_run_v2_service" "default" {
   name     = "ciaofresco-backend"
@@ -32,7 +30,7 @@ resource "google_cloud_run_v2_service" "default" {
       }
     }
     containers {
-      image = "europe-west1-docker.pkg.dev/ciaofresco/ciaofresco-backend/ciaofresco-backend:0.0.1"
+      image = "${var.region}-docker.pkg.dev/${var.project_id}/ciaofresco-backend/${var.backend_image_tag}"
 
       volume_mounts {
         name       = "cloudsql"
