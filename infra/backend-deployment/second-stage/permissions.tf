@@ -8,12 +8,16 @@ resource "google_project_service" "sqladmin_api" {
   service = "sqladmin.googleapis.com"
 }
 
-# These are needed for the artifact registry creation
-resource  "google_project_service" "artifact_api" {
-    service = "artifactregistry.googleapis.com"
+# Network permissions
+resource "google_project_service" "network_api" {
+  service = "servicenetworking.googleapis.com"
 }
 
 # Secret manager? Why not! Maybe remember to remove the permission after the script has finished
 resource "google_project_service" "secretmanager_api" {
     service = "secretmanager.googleapis.com"
+}
+
+resource "google_project_service" "cloudrun" {
+    service = "run.googleapis.com"
 }

@@ -7,6 +7,8 @@ resource "google_compute_network" "private_network" {
   provider = google
 
   name = "private-network"
+
+  depends_on = [ google_project_service.compute_api, google_project_service.network_api ]
 }
 
 
@@ -18,6 +20,7 @@ resource "google_compute_global_address" "private_ip_address" {
   address_type  = "INTERNAL"
   prefix_length = 16
   network       = google_compute_network.private_network.id
+  depends_on = [ google_compute_network.private_network ]
 }
 
 
